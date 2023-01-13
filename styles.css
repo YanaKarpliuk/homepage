@@ -40,6 +40,10 @@ body {
   --text-decoration-color: #ff9a00;
 }
 
+.main {
+  padding: 20px 0;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -156,7 +160,6 @@ body {
 .contact-info__link {
   text-decoration: none;
   display: flex;
-  justify-content: start;
   align-items: center;
   color: var(--primary-color);
 }
@@ -180,6 +183,7 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-info__avatar {
