@@ -25,6 +25,7 @@ ol {
 
 body {
   font-family: "Inter", sans-serif;
+  font: 18px;
   line-height: 1.5;
   min-height: 100vh;
   display: flex;
@@ -33,11 +34,8 @@ body {
 
   --primary-color: #4a454b;
   --secondary-color: #f0cfc3;
-
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
 }
 
 .main {
@@ -98,11 +96,13 @@ body {
   }
 }
 
-.title-box {
+.header-box {
   background-color: var(--secondary-color);
   width: 250px;
   padding: 5px;
   border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 20px;
 }
 
 /* Contact info styles */
@@ -219,12 +219,6 @@ body {
   text-align: justify;
 }
 
-.skills__header {
-  text-align: center;
-  margin-bottom: 15px;
-  margin: 0 auto;
-}
-
 .skills__text {
   text-align: justify;
 }
@@ -233,11 +227,6 @@ body {
 .experiences {
   flex: 1 1 60%;
   margin-right: 50px;
-}
-
-.experiences__header {
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .experiences__company {
@@ -280,11 +269,6 @@ body {
   margin-bottom: 20px;
 }
 
-.additional-info__education-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .additional-info__education-item {
   margin-bottom: 20px;
 }
@@ -301,11 +285,6 @@ body {
 }
 
 .additional-info__languages {
-  margin-bottom: 20px;
-}
-
-.additional-info__languages-header {
-  text-align: center;
   margin-bottom: 20px;
 }
 
