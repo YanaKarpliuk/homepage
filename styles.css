@@ -229,25 +229,18 @@ body {
   margin-right: 50px;
 }
 
-.experiences__company {
+.experiences__company:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.durability {
   color: var(--durability-text-color);
-}
-
-.experiences__company-header-name {
-  text-align: left;
-}
-
-.experiences__company-project {
-  margin-left: 15px;
-  margin-bottom: 25px;
+  font-size: 15px;
 }
 
 .experiences__company-project-role {
-  color: var(--durability-text-color);
+  /* color: var(--durability-text-color); */
+  font-weight: 600;
 }
 
 .experiences__company-project-name {
