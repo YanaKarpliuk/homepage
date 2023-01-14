@@ -138,7 +138,8 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-.contact-info__item:hover::after {
+.contact-info__item:hover::after,
+.contact-info__item:focus::after {
   width: 100%;
   border-bottom-color: var(--secondary-color);
 }
@@ -286,8 +287,23 @@ body {
   margin-bottom: 20px;
 }
 
-.additional-info__languages {
+.additional-info__combined {
   flex: 1;
+}
+
+.additional-info__languages {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .additional-info__languages {
+    margin-bottom: 20px;
+  }
+}
+
+.additional-info__languages__list, .additional-info__hobbies__list {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 /*Bubbles*/
