@@ -24,8 +24,8 @@ ol {
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  font: 18px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
   line-height: 1.5;
   min-height: 100vh;
   display: flex;
@@ -301,12 +301,13 @@ body {
   }
 }
 
-.additional-info__languages__list, .additional-info__hobbies__list {
+.additional-info__languages__list,
+.additional-info__hobbies__list {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-/*Bubbles*/
+/* Bubbles */
 
 .bubble-1 {
   position: absolute;
@@ -360,6 +361,7 @@ body {
   0% {
     scale: 0;
   }
+
   100% {
     scale: 1;
   }
