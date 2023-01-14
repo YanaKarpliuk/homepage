@@ -4,61 +4,111 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6ffdb99691.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <main>
+    <main class="main">
       <div class="resume">
         <div class="container">
           <div class="resume__block">
-            <h1 class="contact-info__header">Bulka</h1>
-            <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
-
-            <div class="contact_info_container fh">
-              <div class="contact-info__block">
-                <a href="" rel="author" class="contact-info__item">
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>Lviv, Ukraine</span>
-                </a>
-                <a
-                  href="https://ua.linkedin.com/company/binary-studio_241166"
-                  rel="author"
-                  class="contact-info__item"
-                >
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <path
-                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>binary-studio</span>
-                </a>
-              </div>
-
-              <div class="contact-info__block contact-info__block--center">
-                <img
-                  class="contact-info__avatar"
-                  src="assets/avatar.png"
-                  alt="Avatar"
-                />
-              </div>
-
-              <div class="contact-info__block"></div>
+            <h1 class="contact-info__header">Yana Karpliuk</h1>
+            <h3 class="contact-info__sub-header">
+              Trainee Front-End Developer
+            </h3>
+            <div class="contact_info_container">
+              <img
+                class="contact-info__avatar"
+                src="assets/avatar.jpg"
+                alt="Avatar"
+              />
+              <ul>
+                <li class="contact-info__item">
+                  <a
+                    href="https://www.google.com/maps/place/Lviv,+Lviv+Oblast,+79000/@49.8327787,23.9421962,12z/data=!3m1!4b1!4m5!3m4!1s0x473add7c09109a57:0x4223c517012378e2!8m2!3d49.839683!4d24.029717"
+                    target="_blank"
+                    rel="author"
+                    class="contact-info__link"
+                  >
+                    <span class="contact-info__link-icon"
+                      ><i class="fa-solid fa-location-dot"></i
+                    ></span>
+                    <span>Lviv, Ukraine</span>
+                  </a>
+                </li>
+                <li class="contact-info__item">
+                  <a
+                    href="https://github.com/YanaKarpliuk"
+                    target="_blank"
+                    rel="author"
+                    class="contact-info__link"
+                  >
+                    <span class="contact-info__link-icon"
+                      ><i class="fa-brands fa-github"></i
+                    ></span>
+                    <span>GitHub</span>
+                  </a>
+                </li>
+                <li class="contact-info__item">
+                  <a
+                    href="https://www.linkedin.com/in/yana-karpliuk-3820a8208/"
+                    target="_blank"
+                    rel="author"
+                    class="contact-info__link"
+                  >
+                    <span class="contact-info__link-icon">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </span>
+                    <span>LinkedIn</span>
+                  </a>
+                </li>
+                <li class="contact-info__item">
+                  <a
+                    href="mailto:yanakarpliuk99@gmail.com"
+                    rel="author"
+                    class="contact-info__link"
+                  >
+                    <span class="contact-info__link-icon"
+                      ><i class="fa-regular fa-envelope"></i
+                    ></span>
+                    <span>yanakarpliuk99@gmail.com</span>
+                  </a>
+                </li>
+                <li class="contact-info__item">
+                  <a
+                    href="tel:0688346933"
+                    rel="author"
+                    class="contact-info__link"
+                  >
+                    <span class="contact-info__link-icon"
+                      ><i class="fa-solid fa-mobile"></i
+                    ></span>
+                    <span>+380683346933</span>
+                  </a>
+                </li>
+                <li class="contact-info__item">
+                  <a
+                    href="https://t.me/yana_karpliuk"
+                    target="_blank"
+                    rel="author"
+                    class="contact-info__link"
+                  >
+                    <span class="contact-info__link-icon">
+                      <i class="fa-brands fa-telegram"></i>
+                    </span>
+                    <span>@yana_karpliuk</span>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -78,9 +128,9 @@
                 </svg>
               </div>
               <p class="intro_text">
-                Meow. I am a Binary Studio cat. Still got 7 lives. Work in IT,
-                Full Stack Evil, all I do is sleep and try to help out hoomans
-                with their projects whenever they need me.
+                Extremely motivated to develop my skills and grow professionally
+                as a Front-End Developer. Ready to apply my passion for coding
+                to a talented engineering team to develop quality solutions.
               </p>
             </div>
           </div>
@@ -88,80 +138,140 @@
 
         <div class="container">
           <div class="resume__block">
-            <div class="skills">
-              <h3 class="skills__header">Skills</h3>
-              <p class="skills__text">
-                Sleep, eat, more sleep, meow, mrrr, purr.
-              </p>
-            </div>
+            <h3 class="header-box">Skills</h3>
+            <p class="skills__text">
+              React, JavaScript, TypeScript, HTML, CSS, SASS, Git, Tailwind CSS,
+              Bootstrap, Rudux Toolkit, OOP
+            </p>
           </div>
         </div>
 
         <div class="container">
           <div class="resume__block">
-            <div class="main-info fh">
+            <div class="main-info">
               <div class="experiences">
-                <h3 class="experiences__header">Experience</h3>
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability"
-                      >For whole my life</span
-                    >
-                    <h3 class="experiences__company-header-name">
-                      BinaryStudio
-                    </h3>
+                <h3 class="header-box">Experience</h3>
+                <ul>
+                  <li class="experiences__company">
+                    <p class="durability">Oct 2021 - May 2022</p>
+                    <h3>Jooble</h3>
+                    <p class="experiences__company-project-role">
+                      Talent Sourcer
+                    </p>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Identified top talent through internal resources and ATS
+                      </li>
+                      <li>
+                        Communicated with candidates through the application
+                        process
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="experiences__company">
+                    <p class="durability">Feb 2021 - Sep 2021</p>
+                    <h3>Jooble</h3>
+                    <p class="experiences__company-project-role">
+                      Partnership Manager
+                    </p>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Created, negotiated, and closed terms of noncommercial
+                        partnership proposals and other agreements
+                      </li>
+                      <li>
+                        Developed tactics and plans to increase the number of
+                        successful negotiations
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="experiences__company">
+                    <p class="durability">Sep 2020 - Feb 2021</p>
+                    <h3>SupportLab</h3>
+                    <p class="experiences__company-project-role">
+                      Support Team Manager
+                    </p>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Consulted new and existing customers about the company's
+                        services
+                      </li>
+                      <li>Resolved customers' requests and complaints</li>
+                    </ul>
+                  </li>
+
+                  <li class="experiences__company">
+                    <p class="durability">Dec 2017 - May 2021</p>
+                    <h3>Self-employed</h3>
+                    <p class="experiences__company-project-role">
+                      Part-time English Language Teacher
+                    </p>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Conducted English classes for children and adults</li>
+                      <li>
+                        Planned tests and assessment methods for checking
+                        students' skills
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="additional-info">
+                <div class="additional-info__education">
+                  <h3 class="header-box">Education</h3>
+                  <ul>
+                    <li class="additional-info__education-item">
+                      <p class="durability">2023</p>
+                      <h3>Fullstack Development</h3>
+                      <p>GoIT</p>
+                    </li>
+
+                    <li class="additional-info__education-item">
+                      <p class="durability">2022</p>
+                      <h3>React Marathon</h3>
+                      <p>SoftServe</p>
+                    </li>
+
+                    <li class="additional-info__education-item">
+                      <p class="durability">2020</p>
+                      <h3>
+                        English Philology (Language and Literature. Translation)
+                      </h3>
+                      <p>Lesya Ukrainka Volyn National University</p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="additional-info__combined">
+                  <div class="additional-info__languages">
+                    <h3 class="header-box">Languages</h3>
+                    <ul class="additional-info__languages__list">
+                      <li>Ukrainian (Native)</li>
+                      <li>English (C1)</li>
+                      <li>Russian (B2)</li>
+                      <li>German (A2)</li>
+                    </ul>
                   </div>
 
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role"
-                      >Binary Studio Cat</span
-                    >
-                    <h3 class="experiences__company-project-name">
-                      Hooman project
-                    </h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>Supported hoomans</li>
-                      <li>Slept all the time</li>
-                      <li>Lied on the keyboard</li>
-                      <li>Watched my hoomans working</li>
+                  <div class="additional-info__hobbies">
+                    <h3 class="header-box">Hobbies</h3>
+                    <ul class="additional-info__hobbies__list">
+                      <li>I enjoy reading books.</li>
+                      <li>Sometimes I play video games.</li>
+                      <li>And I love programming :)</li>
                     </ul>
                   </div>
                 </div>
               </div>
-
-              <div class="additional-info fv">
-                <div class="additional-info__education">
-                  <h3 class="additional-info__education-header">Education</h3>
-                  <div class="additional-info__education-university">
-                    <span
-                      class="additional-info__education-university-durability"
-                      >2021</span
-                    >
-                    <h3
-                      class="additional-info__education-university-speciality"
-                    >
-                      Cat track
-                    </h3>
-                    <p class="additional-info__education-university-name">
-                      Binary Studio Academy
-                    </p>
-                  </div>
-                </div>
-
-                <div class="additional-info__languages">
-                  <h3 class="additional-info__languages-header">Languages</h3>
-                  <p class="additional-info__languages-item">Meow dialect</p>
-                  <p class="additional-info__languages-item">
-                    Ukrainian (understand)
-                  </p>
-                  <p class="additional-info__languages-item">
-                    English (don't understand)
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
+        <div class="bubble-1"></div>
+        <div class="bubble-2"></div>
+        <div class="bubble-3"></div>
       </div>
     </main>
   </body>
